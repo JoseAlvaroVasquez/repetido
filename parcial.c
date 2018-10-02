@@ -107,8 +107,8 @@ int main() {
 		}
 		
 		
-	for(filas=0; filas<3;filas++){
-		for(columnas=0; columnas<3;columnas++){
+	for(filas=0; filas<18;filas++){
+		for(columnas=0; columnas<18;columnas++){
 			if(vector[filas] <vector[columnas]){
 					auxiliar = vector[filas];
 					vector[filas]= vector[columnas];
